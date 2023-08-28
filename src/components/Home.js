@@ -11,6 +11,7 @@ import toast from 'react-hot-toast';
 const Home = () => {
     const [cartData, setCartData] = useState(CardsData);
     const dispatch = useDispatch();
+    console.log(setCartData)
 
 
     // add to cart 
